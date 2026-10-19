@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription - IIT</title>
+</head>
+<body>
+
+    <header align="center">
+        <img src="../images/logo.webp" alt="Logo IIT" width="80">
+        <h3><i>Université Nord Américaine Privée :
+        Institut International de Technologie</i></h3>
+        <img src="../images/iit.webp" alt="Institut IIT" width="100%">
+    </header>
+
+    <nav align="center">
+        <a href="../index.html">Accueil</a> |
+        <a href="inscription.html">Inscription</a> |
+        <a href="galerie.html">Galerie</a>
+    </nav>
+
+    <hr>
+
+    <form>
+        <fieldset>
+            <legend>Inscription étudiant</legend>
+
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom">
+            <br><br>
+
+            <label for="prenom">Prénom :</label>
+            <input type="text" id="prenom" name="prenom">
+            <br><br>
+
+            <label for="naissance">Naissance :</label>
+            <input type="date" id="naissance" name="naissance">
+            <br><br>
+
+            <label>Sexe :</label>
+            <input type="radio" name="sexe" value="masculin">
+            Masculin
+            <input type="radio" name="sexe" value="feminin">
+            Féminin
+            <br><br>
+
+            <label for="pays">Pays :</label>
+            <select id="pays" name="pays">
+                <option value="tunisie">Tunisie</option>
+                <option value="france">France</option>
+                <option value="algerie">Algérie</option>
+                <option value="maroc">Maroc</option>
+            </select>
+            <br><br>
+
+            <label>Langues :</label>
+            <input type="checkbox" name="langues" value="arabe">
+            Arabe
+            <input type="checkbox" name="langues" value="francais">
+            Français
+            <input type="checkbox" name="langues" value="anglais">
+            Anglais
+            <br><br>
+
+            <label for="image">Image :</label>
+            <input type="file" id="image" name="image">
+            <br><br>
+
+            <input type="submit" value="Valider">
+            <input type="reset" value="Annuler">
+        </fieldset>
+    </form>
+
+    <hr>
+
+    <footer>
+        <p>Route Mharza Km 1.5, Sfax</p>
+        <p>Tél : +216 74 462 030</p>
+    </footer>
+
+</body>
+</html>
